@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios com tabelas</title>
+    <style>
+        table {
+            width: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+
+        .center {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table class="center">
+        <tr>
+            <td colspan="2" height="35px">1</td>
+            <td colspan="2" height="35px">2</td>
+            <td colspan="2" rowspan="2" height="35px">3</td>
+            <td colspan="2" height="35px">4</td>
+        </tr>
+        <tr>
+            <td colspan="2" height="35px">5</td>
+            <td colspan="2" height="35px">6</td>
+            <td colspan="2" height="35px">7</td>
+        </tr>
+        <tr>
+            <td colspan="6" height="35px">8</td>
+            <td colspan="2" height="35px">9</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" height="35px">10</td>
+            <td colspan="4" height="35px">11</td>
+            <td colspan="2" height="35px">12</td>
+        </tr>
+        <tr>
+            <td colspan="2" height="35px">13</td>
+            <td colspan="2" height="35px">14</td>
+            <td colspan="2" height="35px">15</td>
+        </tr>
+    </table>
+
+    <table class="center">
+        <tr>
+            <td colspan="8" height="35px">A</td>
+            <td colspan="2" rowspan="4" height="35px">B</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4" height="35px">C</td>
+            <td colspan="2" height="35px">D</td>
+            <td colspan="2" height="35px">E</td>
+            <td colspan="2" height="35px">F</td>
+        </tr>
+        <tr>
+            <td colspan="2" height="35px">G</td>
+            <td colspan="2" height="35px">H</td>
+            <td colspan="2" height="35px">I</td>
+        </tr>
+        <tr>
+            <td colspan="2" height="35px">J</td>
+            <td colspan="2" height="35px">L</td>
+            <td colspan="2" height="35px">M</td>
+        </tr>
+        <tr>
+            <td colspan="8" height="35px">N</td>
+        </tr>
+    </table>
+</body>
+</html>
